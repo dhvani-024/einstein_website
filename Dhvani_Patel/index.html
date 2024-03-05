@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einstein Webpage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <img src="Assets/alberticon.jpeg" alt="Eintein Logo" />
+        <nav id="nav" class="nav">
+            <a href="#about">ABOUT</a>
+            <a href="#papers">PAPERS</a>
+            <a href="#books">BOOKS</a>
+            <a href="#collection">IMAGES</a>
+            <a href="#hobby">HOBBY</a>
+            <a href="#article">ARTICLE</a>
+        </nav>
+        <button class="hamburger" id="hamburger" onclick="onHandleClick()"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    </header>
+    <main class="container">
+        <section id="about">
+            <img src="Assets/einstein1.jpeg" alt="Einstein image" />
+            <h3>ABOUT ME</h3>
+            <p>
+                Born:&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 14 March 1879<br>
+                Education:&nbsp; &nbsp; ETH Zurich (Dip,1900),<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                University of Zurich(PhD,1905)<br>
+                Known for:&nbsp; &nbsp;General Relativity<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Special Relativity<br>
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;E=mc^2<br>
+                It was March 14, 1879. I was born in the small city of Ulm, Germany.
+                Dad, Hermann, worked with electrical equipment. Mom, Pauline, loved music and was a talented pianist.
+                Little sister and lifelong friend, Maja, was two years younger.
+                Best known for developing the theory of relativity, made important contributions to quantum
+                mechanics, and was thus a central figure in the revolutionary reshaping of the scientific
+                understanding of nature that modern physics accomplished in the first decades of the twentieth
+                century.
+                Mass–energy equivalence formula <b>E = mc2</b>, which arises from relativity theory, has been called
+                "The
+                world's most famous equation".
+                He received the 1921 Nobel Prize in Physics "for his services to theoretical physics, and especially
+                for his discovery of the law of the photoelectric effect",a pivotal step in the development of
+                quantum theory.
+                My work is also known for its influence on the philosophy of science.
+                In a 1999 poll of 130 leading physicists worldwide by the British journal Physics World, I was
+                ranked the greatest physicist of all time.
+            </p>
+        </section>
+        <section id="papers">
+            <h3>Published Papers:</h3>
+            <img src="Assets/papericon.png" /><a href="link1">The theory of relativity</a><br>
+            <img src="Assets/papericon.png" /><a href="link2">A theory of the foundations of Thermodynamics</a><br>
+            <img src="Assets/papericon.png" /><a href="link3">The Speed of Light and the Statics of the Gravitational Field</a><br>
+            <img src="Assets/papericon.png" /><a href="link3">Principles of Graphic Thermodynamics</a><br>
+            <img src="Assets/papericon.png" /><a href="link3">On the thermal value of chemical processes.</a><br>
+            <img src="Assets/papericon.png" /><a href="link3">On the theory of Brownain Motion</a><br>
+        </section>
+
+        <section id="books">
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/41nlxblusOL._AC_UF1000,1000_QL80_.jpg" />
+                <p>Foundations of the General Theory of Relativity</p>
+            </div>
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/71WCeUz6ppL._AC_UF1000,1000_QL80_.jpg" />
+                <p>On the Method of Theoretical Physics</p>
+            </div>
+        </section>
+    
+        <section id="collection">
+            <h3 class="center-text">Image Collection</h3>
+            <div class="collection-container">
+                <img src="Assets/einsteinimg1.jpeg" alt="image 1" />
+                <img src="Assets/einsteinimg2.jpeg" alt="image 2" />
+                <img src="Assets/einsteinimg3.jpeg" alt="image 3" />
+            </div>
+        </section> 
+        <br>
+
+        <section id="hobby">
+            <h3 class="center-text">HOBBIES</h3>
+            <div class="hobby-container center-text">
+                <span class="hobby-item">
+                    <p class="hobby-name">Hiking</p>
+                    <img src="Assets/hikingicon.png" alt="hiking" class="hobby-img" />
+                </span>
+                <span class="hobby-item">
+                    <p class="hobby-name">Reading Books</p>
+                    <img src="Assets/readingbookicon (1).png" alt="reading" class="hobby-img" />
+                </span>
+                <span class="hobby-item">
+                    <p class="hobby-name">Playing Violin</p>
+                    <img src="Assets/violinicon.png" alt="violin" class="hobby-img" />
+                </span>
+            </div>
+        </section>
+        
+        <section id="article">
+            <h3> Articles</h3>
+            <img src="Assets/article.png" alt="article"/> On a Method for the Determination of the Ratio of the Transverse and the Longitudinal Mass of the Electron.<br>
+            <img src="Assets/article.png" alt="article"/> Lectures on the Theory of Thermal Radiation.<br>
+            <img src="Assets/article.png" alt="article"/> On the Development of Our Views Concerning the Nature and Constitution of Radiation.<br>
+            <img src="Assets/article.png" alt="article"/> Is There a Gravitational Effect Which Is Analogous to Electrodynamic Induction?
+        </section>
+    </main> 
+    
+</body>
+</html>
